@@ -1,0 +1,7 @@
+# Aula01 - Introdução ao flexsbox e fazendo o cabeçalho
+## Arrumando Cabeçalho:  
+```position: flex;``` Dentro do container para ativar o flexbox.  
+```align-items: center;``` Alinhar os objetos dentro do container flex verticalmente no centro.  
+```justify-content: space-between;``` Pega o espaço vazio e o coloca entre os itens.
+## Terminando Cabeçalho:  
+apenas ativou a ```position: flex;``` em outra propriedade para deixar os menus em linha.  
