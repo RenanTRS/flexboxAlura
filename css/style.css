@@ -52,7 +52,7 @@ body {
 	height: 100px;
 	background-color: #FFF;
 	text-align: center;
-	margin: 1%;
+	/*margin: 1%;*/
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
@@ -209,6 +209,7 @@ body {
 	margin-bottom: 10px;
 }
 
+/*
 @media(min-width: 769px) {
 
 	.container {
@@ -282,6 +283,6 @@ body {
 		margin-left: 1.5em;
 	}
 
-}
+}*/
 
 
