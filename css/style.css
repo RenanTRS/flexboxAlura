@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-	width: 94%;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ body {
 .cabecalhoPrincipal-titulo {
 	font-weight: bold;
 	font-size: 2em;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 }
 
 .cabecalhoPrincipal-titulo a {
@@ -26,14 +26,20 @@ body {
 
 .cabecalhoPrincipal-nav-link {
 	padding: 10px;
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
+	margin-left: 10px;
 	color: #9799A6;
 	background-color: #FFF;
 	text-decoration: none;
 	transition: .5s;
 	display: block;
-
+	border-radius: 5px;
+	border: 1px solid #9799A6;
 	border-bottom: 1px solid #9799A6;
+}
+.cabecalhoPrincipal-nav-link:hover {
+	color: #FFF;
+	background-color: #9799A6;
 }
 
 .conteudoPrincipal {
@@ -135,8 +141,8 @@ body {
 }
 
 .rodapePrincipal-contatoForm {
-	margin-top: 20px;
-	text-align: center;
+	margin-top: 0;
+	text-align: left;
 }
 
 .rodapePrincipal-contatoForm label[for=email-contato] {
