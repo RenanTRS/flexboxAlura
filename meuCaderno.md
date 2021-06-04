@@ -19,3 +19,13 @@ apenas ativou a ```display: flex;``` em outra propriedade para deixar os menus e
 - Flex não é bom para fazer um grid.  
 ## Terminando course grid:  
 - Foi utilizado ```nth-child()``` para retirar margins de alguns itens.
+
+# Aula04 - Arrumando os elementos com flex para moblie
+## Começando responsivo:
+- No momento que se usa ```flex-direction: column;``` os eixos ficam invertidos.
+## Flex order:  
+```order: -1;``` Coloca o item em primeiro.
+## Vantagens e o vídeo:  
+```flex-grow: 1;``` Ele divide o tamanho vazio que sobrou e acrescenta ao item.
+## Vantagens responsivo:  
+```flex-shrink: 2;``` Diminui a anotação proporcionalmente em 2x a medida que a tela reduz o tamanho.
